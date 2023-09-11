@@ -1,7 +1,9 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\static",
+    "\\templates"
   ],
-  "SelectedNode": "\\videores.py",
+  "SelectedNode": "\\templates\\index.html",
   "PreviewInSolutionExplorer": false
 }
