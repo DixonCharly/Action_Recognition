@@ -1,4 +1,4 @@
-// Wrap your code in a DOMContentLoaded event listener to ensure the document is fully loaded
+// Event listener to ensure the document is fully loaded
 document.addEventListener('DOMContentLoaded', function () {
     // Get references to the elements you want to work with
     const showPatternButton = document.getElementById('show-pattern-button');
@@ -15,7 +15,7 @@ document.addEventListener('DOMContentLoaded', function () {
             return;
         }
 
-        // Extract data for the chart (replace with your data)
+        // Extract data for the chart 
         const labels = data.pattern.map(entry => entry.action);
         const counts = data.pattern.map(entry => entry.count);
 
